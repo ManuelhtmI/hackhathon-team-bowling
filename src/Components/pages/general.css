@@ -1,6 +1,6 @@
 .container {
-    margin-top: 6vh;
-    display: flex;
+    display: block;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }

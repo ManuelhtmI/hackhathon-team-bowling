@@ -1,11 +1,10 @@
 .Navbar{
-    top: 0;
     display: flex;
+    position: fixed;
     justify-content: center;
     padding-top : 2vh;
     padding-bottom : 2vh;
     background:  var(--main-color);
-    position: fixed;
     width: 100vw;
     height: 80px;
     z-index: 5;

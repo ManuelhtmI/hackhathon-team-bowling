@@ -58,6 +58,10 @@ article {
     0 0 0.2em rgb(22, 22, 22);
 }
 .button-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 28px;
   height: 9%;
   width: 50%;
@@ -71,7 +75,12 @@ article {
   transition: all 0.3s;
 }
 
-.button-article::before {
+.Link{
+  text-decoration: none;
+  color: var(--dark);
+}
+
+/* .button-article::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -91,7 +100,7 @@ article {
 }
 .button-article:hover {
   letter-spacing: 2px;
-}
+} */
 
 /* .box-article:hover .box{
     filter:blur(3px);

@@ -6,7 +6,7 @@ function Element() {
 
     
     return(
-        <div className="container">
+        <div>
             <Articles />
         </div>
     )
