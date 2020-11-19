@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
 import './general.css'
+import Drug from './Drugs_list/Drugs'
 
 function Drugs() {
 
@@ -8,7 +9,7 @@ function Drugs() {
     return(
         <div className="container">
             <Navbar/>
-            <p>Drugs</p>
+            <Drug />
         </div>
     )
 }
