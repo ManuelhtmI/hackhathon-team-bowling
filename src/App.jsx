@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Error from './Components/Home/Error'
 
 function App() {
   return (
     <div className="App">
-    
+      <Error />
     </div>
   );
 }
