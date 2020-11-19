@@ -5,7 +5,7 @@ import Rum from './rum2.jpg'
 import './Alcohol.css'
 
 
-function Alcohol() {
+function Alcohols() {
     return (
         <div className="alcohol_list">
             <div className='al_title'>
@@ -54,4 +54,4 @@ function Alcohol() {
     )
 }
 
-export default Alcohol
+export default Alcohols

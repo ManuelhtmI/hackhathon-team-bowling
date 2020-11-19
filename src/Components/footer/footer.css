@@ -1,0 +1,23 @@
+.FooterTotal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom:0;
+    width: 100vw;
+    background: var(--main-color);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.TextFooter{
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: var(--dark)
+}
+
+.Img{
+    height: 50px;
+    width: auto;
+    
+}
