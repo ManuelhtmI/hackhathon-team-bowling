@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react'
-import './navbar.css'
-
+import { Link } from 'react-router-dom'
+import React from 'react'
 import logo_mafia from "./img/BOW-logo-mafia.png"
 import logo_weapon from "./img/BOW-logo-arme.png"
 import logo_drugs from "./img/BOW-logo-drogues.png"
 import logo_alcohol from "./img/BOW-logo-alcool.png"
 
 
-
-function Navbar() {
+function AnimNavbar() {
 
     let l_mafia = ""
     let l_weapon = ""
@@ -63,14 +62,20 @@ function Navbar() {
         }
     })
 
+
     return (
-        <div className="Navbar">
+        <Link to="/HomeDark"><div>
             <picture><img className="Logo Mafia" src={logo_mafia} alt="BOW logo"/></picture>
             <picture><img className="Logo Drugs" src={logo_drugs} alt="BOW logo"/></picture>
             <picture><img className="Logo Weapon" src={logo_weapon} alt="BOW logo"/></picture>
             <picture><img className="Logo Alcohol" src={logo_alcohol} alt="BOW logo"/></picture>
-        </div>
+        </div></Link>
     )
 }
 
-export default Navbar
+export default AnimNavbar
+
+
+
+
+

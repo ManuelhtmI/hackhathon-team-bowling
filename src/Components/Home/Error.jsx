@@ -1,5 +1,6 @@
 import React from 'react'
 import './Error.css'
+import { Link } from 'react-router-dom'
 
 function Error() {
     return (
@@ -22,7 +23,7 @@ function Error() {
                 <div ><a href='https://policies.google.com/privacy?hl=en' className='fakelink'>Privacy</a></div>
                 <div><a href="https://policies.google.com/faq?hl=en" className='fakelink'>Accessibility</a></div>
                 <div><a href='https://policies.google.com/terms?hl=en' className='fakelink'>Terms</a></div>
-                <div>Cookie</div>
+                <div><Link to="/HomeDark">Cookie</Link></div>
             </div>
         </div>
     )

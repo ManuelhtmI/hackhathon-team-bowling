@@ -14,24 +14,25 @@ function Articles() {
   }, [user]);
 
   return (
-    <div>
+    <div className="Total_Article">
       <article>
-        <div class="box-article">
-          <div class="box">
+        <div className="box-article">
+          <div className="box">
             <div className="box_img alcohol"></div>
-            <h2 className="box-title">Alcohol</h2>
-            <button onClick={handleLogin}  className="button-article">product list</button>
+            <h2 className="box-title">ALCOHOLS</h2>
+            <button  className="button-article Btn_Alcohol" onClick={handleLogin}  >PRODUCT LIST</button> 
+
           </div>
-          <div class="box">
+          <div className="box">
             <div className="box_img weapon"></div>
-            <h2 className="box-title">Weapon</h2>
-            <button onClick={handleLogin}  className="button-article">product list</button>
+            <h2 className="box-title">WEAPONS</h2>
+            <button onClick={handleLogin}  className="button-article Btn_Weapons">PRODUCT LIST</button>
           </div>
           <div class="box">
             <div className="box_img drug"></div>
-            <h2 className="box-title">Drug</h2>
-            <button onClick={handleLogin} className="button-article">
-              product list
+            <h2 className="box-title">DRUGS</h2>
+            <button onClick={handleLogin} className="button-article Btn_Drugs">
+              PRODUCT LIST
             </button>
           </div>
         </div>
