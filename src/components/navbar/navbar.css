@@ -1,0 +1,32 @@
+.Navbar{
+    display: flex;
+    justify-content: center;
+    padding-top : 2vh;
+    padding-bottom : 2vh;
+    background:  #F5F5F5;
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    z-index: 5;
+}
+
+.Logo{
+    width: auto;
+    height: 75px;
+}
+
+.Mafia{
+    display: none;
+}
+
+.Alcohol{
+    display: none;
+}
+
+.Weapon{
+    display: flex;
+}
+
+.Drugs{
+    display: none;    
+}
