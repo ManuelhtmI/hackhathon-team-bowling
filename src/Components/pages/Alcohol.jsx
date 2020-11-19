@@ -1,15 +1,20 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
-import './general.css'
 import Alcohols from './Alcohol_list/Alcohol'
+import { useEffect } from 'react'
+import Footer from '../footer/Footer'
 
 function Alcohol() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     return(
-        <div className="container">
+        <div>
             <Navbar />
             <Alcohols />
+            <Footer />
         </div>
     )
 }

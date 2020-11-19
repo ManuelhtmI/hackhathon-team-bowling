@@ -1,15 +1,20 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
-import './general.css'
 import Weapon from './Weapons_list/Weapons'
+import { useEffect } from 'react'
+import Footer from '../footer/Footer'
 
 function Weapons() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     return(
-        <div className="container">
+        <div>
             <Navbar />
             <Weapon />
+            <Footer />
         </div>
     )
 }

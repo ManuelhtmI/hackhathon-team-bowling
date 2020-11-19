@@ -1,3 +1,8 @@
+.Link_Cookie{
+    text-decoration: none;
+    color: black;
+}
+
 .fakehead{
     font-family:'Barlow Semi Condensed', sans-serif;
     display: flex;

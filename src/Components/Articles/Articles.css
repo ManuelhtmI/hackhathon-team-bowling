@@ -1,23 +1,26 @@
+.Total_Article{
+  padding-top: 15vh;
+}
+
 article {
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
   color: rgba(214, 209, 209, 0.993);
-
-  /* text-align:center; */
+  text-align:center;
   -webkit-font-smoothing: antialiased;
 }
+
 .box-article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 20px;
 }
 .box {
+  display: flex;
   flex-wrap: wrap;
   width: 400px;
   height: 500px;
-  display: flex;
   align-items: center;
   flex-direction: column;
   background-color: var(--main-color);
@@ -25,27 +28,25 @@ article {
   box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
   transition: 0.2s all;
-  margin: 3%;
+  margin: 5%;
 }
 .box_img {
-  display: flex;
   width: 100%;
-  height: 80%;
-  position: relative;
+  height: 100%;
 }
-.alcohol {
-  background: url('../../asset/hackathon1-alcool.png'), no-repeat, fixed;
-  background-size: 600px auto;
+ .alcohol {
+  background: url('../../asset/hackathon1-alcool.png');
+  background-size: 750px auto;
 }
 .weapon {
   background: url('../../asset/hackathon1-armed-ConvertImage.png');
-  background-size: 600px auto;
+  background-size: 750px auto;
   background-position: center;
 }
 
 .drug {
   background: url('../../asset/drug-ConvertImage.png');
-  background-size: 750px auto;
+  background-size: 900px auto;
   background-position: center;
 }
 
@@ -59,10 +60,9 @@ article {
 }
 .button-article {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-top: 28px;
+  justify-content: center;
+  position: absolute;
   height: 9%;
   width: 50%;
   color:var(--dark);
@@ -71,8 +71,6 @@ article {
   font-size: 22px;
   font-family:'Barlow Semi Condensed', sans-serif;
   transition: all 0.3s;
-  position: relative;
-  transition: all 0.3s;
 }
 
 .Link{
@@ -80,43 +78,49 @@ article {
   color: var(--dark);
 }
 
-/* .button-article::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-top-color: rgba(27, 26, 26, 0.5);
-  border-bottom-color: rgba(20, 19, 19, 0.5);
-  transform: scale(0.1, 1);
+.Btn_Alcohol {
+  bottom: 25vh;
 }
-.button-article:hover {
-  letter-spacing: 2px;
-} */
 
-/* .box-article:hover .box{
-    filter:blur(3px);
-    opacity:.5;
-    transform: scale(.98);
-    box-shadow:none;
+.Btn_Weapons {
+  bottom: -40vh;
+}
+
+.Btn_Drugs {
+  bottom: -105vh;
+}
+
+@media screen and (min-width: 789px) and (max-width: 1023px) {
+}
+
+@media screen and (max-height: 736px) {
+
+  .Btn_Alcohol {
+    bottom: 22vh;
   }
-  .box-article:hover .box:hover{
-    transform:scale(1);
-    filter:blur(0px);
-    opacity:1;
-    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
-  } */
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  .Btn_Weapons {
+    bottom: -50vh;
+  }
+  
+  .Btn_Drugs {
+    bottom: -120vh;
+  }
+  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-height: 667px) {
+
+  .Btn_Alcohol {
+    bottom: 20vh;
+  }
+  
+  .Btn_Weapons {
+    bottom: -60vh;
+  }
+  
+  .Btn_Drugs {
+    bottom: -140vh;
+  }
+  
 }

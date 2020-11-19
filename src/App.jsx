@@ -7,8 +7,14 @@ import Drugs from './Components/pages/Drugs';
 import Alcohol from './Components/pages/Alcohol';
 import Weapons from './Components/pages/Weapons';
 import Element from './Components/pages/Element';
+import { useEffect } from 'react'
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  });
+
   return (
     <Router>
       <div className="App">

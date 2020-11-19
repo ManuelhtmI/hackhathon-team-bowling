@@ -23,7 +23,7 @@ function Error() {
                 <div ><a href='https://policies.google.com/privacy?hl=en' className='fakelink'>Privacy</a></div>
                 <div><a href="https://policies.google.com/faq?hl=en" className='fakelink'>Accessibility</a></div>
                 <div><a href='https://policies.google.com/terms?hl=en' className='fakelink'>Terms</a></div>
-                <div><Link to="/HomeDark">Cookie</Link></div>
+                <div><Link className="Link_Cookie" to="/HomeDark">Cookie</Link></div>
             </div>
         </div>
     )
