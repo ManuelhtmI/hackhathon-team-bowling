@@ -1,8 +1,8 @@
 :root {
-    --main-color: #00313D;
-    --secondary-color: #06788D;
-    --dark: #000B10;
-    --light: #F5F5F5;
+    --main-color:#3B271D;
+    --secondary-color:#4A3C3B;
+    --dark: #090605;
+    --light: #825B46;
     --light-medium: #dcdcdc;
     --spacing: 8px;
     --spacing-medium: calc(var(--spacing) * 2);
