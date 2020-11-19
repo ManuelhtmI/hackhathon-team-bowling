@@ -1,0 +1,70 @@
+.fakehead{
+    font-family:'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    background-color:rgb(223, 43, 43);
+    height: 64px;
+    align-items: center;
+}
+
+.fakenavbar{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 8px;
+    font-family:'Barlow Semi Condensed', sans-serif;
+}
+
+.nav{
+    padding: 8px;
+    text-decoration: none;
+    color: azure;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.fpusa{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Stalinist One', cursive;
+    color: rgb(41, 107, 194);
+    text-decoration: none;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Barlow Semi Condensed', sans-serif;
+    height: 100vh;
+}
+
+.error{
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.found{
+    font-size: 32px;
+}
+
+.fakefoot{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Barlow Semi Condensed', sans-serif;
+    align-items: center;
+    border-top: solid black 1px;
+    height: 45px;
+}
+
+.fakelink{
+    text-decoration: none;
+    color: black;
+}
