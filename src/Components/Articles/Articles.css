@@ -20,7 +20,7 @@ article {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #e3e1da;
+  background-color: var(--main-color);
   border: 1px solid #d6d6d6;
   box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
@@ -52,28 +52,25 @@ article {
 .box-title {
   position: absolute;
   text-align: center;
-
-  padding-right: 20px;
+  color: var(--light-medium);
   font-size: 42px;
-  text-shadow: 1px 1px 2px rgb(83, 81, 81), 0 0 1em rgb(83, 81, 81),
+  text-shadow: 1px 1px 2px var(--secondary-color), 0 0 1em rgb(83, 81, 81),
     0 0 0.2em rgb(22, 22, 22);
 }
 .button-article {
   margin-top: 28px;
   height: 9%;
   width: 50%;
-  color: #bfbcbb;
-  background-color: #525050;
+  color:var(--dark);
+  background-color: var(--light-medium);
   border-radius: 5px;
   font-size: 22px;
-}
-
-.button-article {
-  color: #fff;
+  font-family:'Barlow Semi Condensed', sans-serif;
   transition: all 0.3s;
   position: relative;
   transition: all 0.3s;
 }
+
 .button-article::before {
   content: '';
   position: absolute;

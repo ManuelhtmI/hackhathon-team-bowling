@@ -1,12 +1,13 @@
 import React from 'react'
 import './general.css'
+import Articles from '../Articles/Articles'
 
 function Element() {
 
     
     return(
         <div className="container">
-            <h1>ZOULETTE</h1>
+            <Articles />
         </div>
     )
 }
