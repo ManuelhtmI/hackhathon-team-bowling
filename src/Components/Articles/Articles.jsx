@@ -19,19 +19,19 @@ function Articles() {
         <div class="box-article">
           <div class="box">
             <div className="box_img alcohol"></div>
-            <h2 className="box-title">Alcohol</h2>
-            <button onClick={handleLogin}  className="button-article">product list</button>
+            <h2 className="box-title">ALCOHOLS</h2>
+            <button onClick={handleLogin}  className="button-article">PRODUCT LIST</button>
           </div>
           <div class="box">
             <div className="box_img weapon"></div>
-            <h2 className="box-title">Weapon</h2>
-            <button onClick={handleLogin}  className="button-article">product list</button>
+            <h2 className="box-title">WEAPONS</h2>
+            <button onClick={handleLogin}  className="button-article">PRODUCT LIST</button>
           </div>
           <div class="box">
             <div className="box_img drug"></div>
-            <h2 className="box-title">Drug</h2>
+            <h2 className="box-title">DRUGS</h2>
             <button onClick={handleLogin} className="button-article">
-              product list
+              PRODUCT LIST
             </button>
           </div>
         </div>

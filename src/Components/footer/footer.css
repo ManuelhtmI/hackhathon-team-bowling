@@ -5,7 +5,7 @@
     flex-direction: column;
     bottom:0;
     width: 100vw;
-    background: var(--light);
+    background: var(--main-color);
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
