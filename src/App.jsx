@@ -7,7 +7,8 @@ import Drugs from './Components/pages/Drugs';
 import Alcohol from './Components/pages/Alcohol';
 import Weapons from './Components/pages/Weapons';
 import Element from './Components/pages/Element';
-import { useEffect } from 'react'
+import FetchOneCity from './Components/FetchOneCity/FetchOneCity';
+import { useEffect } from 'react';
 
 function App() {
 
@@ -20,14 +21,15 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Error} />
+          <Route exact path="/Result" component={FetchOneCity} />
           <Route path="/Element" component={Element} />
           <Route path="/Alcohol" component={Alcohol} />
           <Route path="/Drugs" component={Drugs} />
           <Route path="/Weapons" component={Weapons} />
           <Route path="/HomeDark" component={HomeDark} />
         </Switch>
-    </Router>
-      </div>
+      </Router>
+    </div>
   );
 }
 

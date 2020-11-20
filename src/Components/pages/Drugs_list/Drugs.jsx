@@ -4,6 +4,7 @@ import Coc from './coc.jpg'
 import Hero from './hero.jpg'
 import Opi from './opi.jpg'
 import axios from "axios";
+import { Link } from 'react-router-dom'
 
 function Drugs() {
 
@@ -96,7 +97,6 @@ function Drugs() {
     localStorage.setItem("finalValue", finalValue)
     localStorage.setItem("finalState", finalState)
 
-    
     useEffect(() => {
         axios
           .get("https://united-states-cities.herokuapp.com/cities/")
@@ -138,7 +138,7 @@ function Drugs() {
                         ))}
                     </select>
                 </div>
-                <button className="button_choice">Valid your choice.</button>
+                <Link to="/Result"><button className="button_choice">Valid your choice.</button></Link>
             </div>
             <div className='total_section'>
                 <h2 className='title_al'>opiumValue</h2>
@@ -160,7 +160,7 @@ function Drugs() {
                         ))}
                     </select>
                 </div>
-                <button className="button_choice">Valid your choice.</button>
+                <Link to="/Result"><button className="button_choice">Valid your choice.</button></Link>
             </div>
             <div className='total_section'>
                 <h2 className='title_al'>Heroin</h2>
@@ -182,7 +182,7 @@ function Drugs() {
                         ))}
                     </select>
                 </div>
-                <button className="button_choice">Valid your choice.</button>
+                <Link to="/Result"><button className="button_choice">Valid your choice.</button></Link>
             </div>
         </div>
     )

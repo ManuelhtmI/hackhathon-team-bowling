@@ -4,6 +4,7 @@ import Thompson from './thompson.jpeg'
 import Remington from './remington.jpg'
 import '../Alcohol_list/Alcohol.css'
 import axios from "axios";
+import { Link } from 'react-router-dom'
 
 function Weapons() {
 
@@ -138,7 +139,7 @@ function Weapons() {
                             ))}
                     </select>
                 </div>
-                <button className="button_choice">Valid your choice.</button>
+                <Link to="/Result"><button className="button_choice">Valid your choice.</button></Link>
             </div>
             <div className='total_section'>
                 <h2 className='title_al'>Model 19 S&W</h2>
@@ -160,7 +161,7 @@ function Weapons() {
                             ))}
                     </select>
                 </div>
-                <button className="button_choice">Valid your choice.</button>
+                <Link to="/Result"> <button className="button_choice">Valid your choice.</button></Link>
             </div>
             <div className='total_section'>
                 <h2 className='title_al'>Remington 870</h2>
@@ -182,7 +183,7 @@ function Weapons() {
                             ))}
                     </select>
                 </div>
-                <button className="button_choice">Valid your choice.</button>
+                <Link to="/Result"><button className="button_choice">Valid your choice.</button></Link>
             </div>
         </div>
     )

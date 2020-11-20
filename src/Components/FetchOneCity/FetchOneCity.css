@@ -21,6 +21,44 @@
     background-color: #825B46 ;
   }
   
+
+  .divInformation{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* 
+  .divInformationText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    
+  } */
+
+  .Icon{
+    display: flex;
+    width: 150px;
+    height: auto;
+  }
+
+  .Icon_box{
+    display: flex;
+    width: 100px;
+    height: auto;
+  }
+
+  .Icon_truck{
+    display: flex;
+    width: 200px;
+    height: auto;
+  }
+
+  .meetingPlaces {
+    margin : 0.5vh;
+  }
+
   .meetingPoint {
     display: flex;
     flex-wrap:wrap;
@@ -40,10 +78,6 @@
   .container li{ 
     list-style: none;
   }  
-  
-  /* .divInformations{
-    
-  } */
   
   .containerList {
     display: flex;
@@ -70,7 +104,7 @@
     color: #dcdcdc;
   }
   
-  .meetingPlaces{
+  .important{
     color:#dcdcdc;
    
   

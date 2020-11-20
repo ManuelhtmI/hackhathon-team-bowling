@@ -35,17 +35,17 @@ article {
   height: 100%;
 }
  .alcohol {
-  background: url('../../assets/hackathon1-alcool.png');
+  background: url('../assets/hackathon1-alcool.png');
   background-size: 750px auto;
 }
 .weapon {
-  background: url('../../assets/hackathon1-armed-ConvertImage.png');
+  background: url('../assets/hackathon1-armed-ConvertImage.png');
   background-size: 750px auto;
   background-position: center;
 }
 
 .drug {
-  background: url('../../assets/drug-ConvertImage.png');
+  background: url('../assets/drug-ConvertImage.png');
   background-size: 900px auto;
   background-position: center;
 }

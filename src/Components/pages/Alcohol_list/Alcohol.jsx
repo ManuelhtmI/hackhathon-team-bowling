@@ -4,6 +4,7 @@ import Whiskey from './whiskey.jpg'
 import Rum from './rum2.jpg'
 import './Alcohol.css'
 import axios from "axios";
+import { Link } from 'react-router-dom'
 
 function Alcohols() {
 
@@ -141,7 +142,7 @@ function Alcohols() {
                         ))}
                     </select>
                 </div>
-                <button className="button_choice" >Valid your choice.</button>
+                <Link to="/Result"><button className="button_choice" >Valid your choice.</button></Link>
             </div>
             <div className='total_section'>
                 <h2 className='title_al'>Whiskey</h2>
@@ -163,29 +164,29 @@ function Alcohols() {
                         ))}
                     </select>
                 </div>
-                <button className="button_choice" >Valid your choice.</button>
+                <Link to="/Result"><button className="button_choice" >Valid your choice.</button></Link>
             </div>
             <div className='total_section'>
                 <h2 className='title_al'>Rum</h2>
                 <div className='price'>15$/L</div>
                 <img className='alcohol_img' src={Rum} />
                 <div className='description'>This rum originates from the island of Negros in the Philippines where it is made from local molasses, renowned for its sweetness and richness. For those who do not know, if the Philippines is today one of the 10 largest sugarcane producing countries in the world, rum production only began 50 years ago.</div>
-            <div className='select' onChange={rumValues}>
-                <select id="quantity">
-                    <option value="5 Liters : 75$">5 Liters : 75$</option>       
-                    <option value="20 Liters : 300$">20 Liters : 300$</option>
-                    <option value="50 Liters : 750$">50 Liters : 750$</option>
-                    <option value="1 Barrel : 2370$">1 Barrel : 2370$</option>
-                </select>
-                <select className="state" onChange={rumStates}>
-                    {getApi[0].map((city) => (
-                        <option value={city.id}>
-                            {city.state}
-                        </option>
-                    ))}
-                </select>
+                <div className='select'>
+                    <select id="quantity" onChange={rumValues}>
+                        <option value="5 Liters : 75$">5 Liters : 75$</option>       
+                        <option value="20 Liters : 300$">20 Liters : 300$</option>
+                        <option value="50 Liters : 750$">50 Liters : 750$</option>
+                        <option value="1 Barrel : 2370$">1 Barrel : 2370$</option>
+                    </select>
+                    <select className="state" onChange={rumStates}>
+                        {getApi[0].map((city) => (
+                            <option value={city.id}>
+                                {city.state}
+                            </option>
+                        ))}
+                    </select>
             </div>
-                <button className="button_choice" >Valid your choice.</button>
+                <Link to="/Result"><button className="button_choice" >Valid your choice.</button></Link>
             </div>
         </div>
     )
