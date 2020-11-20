@@ -16,8 +16,8 @@ function App() {
   });
 
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Switch>
           <Route exact path="/" component={Error} />
           <Route path="/Element" component={Element} />
@@ -26,8 +26,8 @@ function App() {
           <Route path="/Weapons" component={Weapons} />
           <Route path="/HomeDark" component={HomeDark} />
         </Switch>
-      </div>
     </Router>
+      </div>
   );
 }
 
