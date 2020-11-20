@@ -95,12 +95,12 @@ function FetchOneCity() {
                     <img className="Icon" src={map} alt="icon map"></img>
                   </div>
                 </div>
-                <p>We will provide your order :</p>
-                <li><strong className="important">{value}</strong></li>
+                <h4>We will provide your order :</h4>
+                <h4><strong className="important">{value}</strong></h4>
                 <div className="divInformation">
                     <img className="Icon_box" src={caisse} alt="icon box"></img>
                 </div>
-                <p> BOW Agents will be present to ensure the succes of the operation, they will keep an eye for you inside a <strong className="i"portant>{city.transport}</strong> </p>
+                <h4> BOW Agents will be present to ensure the succes of the operation, they will keep an eye for you inside a <strong className="i"portant>{city.transport}</strong> </h4>
                 <div className="divInformation">
                     <img className="Icon_truck" src={camion} alt="icon truck"></img>
                 </div>

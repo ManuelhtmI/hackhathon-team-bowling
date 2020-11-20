@@ -129,10 +129,10 @@ function Alcohols() {
                 <div className='description'>Expressed in each vodka bottle is the essence of the finest ingredients from France; soft winter wheat from in and around Picardy plus pure spring water from Gensac in the Cognac region, nurtured and captured from field to bottle in an exclusive process designed and controlled by the extraordinary skills and commitment of our Cellar Master François Thibault.</div>
                 <div className='select'>
                     <select id="quantity" onChange={vodkaValues}>
-                        <option value="5 Liters : 125$">5 Liters : 125$</option>       
-                        <option value="20 Liters : 500$">20 Liters : 500$</option>
-                        <option value="50 Liters : 1250$">50 Liters : 1250$</option>
-                        <option value="1 Barrel : 3950$">1 Barrel : 3950$</option>
+                        <option value="5 Liters of vodka: 125$">5 Liters : 125$</option>       
+                        <option value="20 Liters of vodka: 500$">20 Liters : 500$</option>
+                        <option value="50 Liters of vodka: 1250$">50 Liters : 1250$</option>
+                        <option value="1 Barrel of vodka: 3950$">1 Barrel : 3950$</option>
                     </select>
                     <select className="state" onChange={vodkaStates}>
                     {getApi[0].map((city) => (
@@ -151,10 +151,10 @@ function Alcohols() {
                 <div className='description'>Though Kentucky bourbon produced principally from maize is the most emblematic American whiskey, in the 18th century, its ancestor, the Monongahela, was distilled in Pennsylvania exclusively from rye. Rye whiskey is still produced in micro-distilleries established throughout the area, from California to New York.</div>
                 <div className="select">
                     <select className="quantity" onChange={whiskeyValues}>
-                        <option value="5 Liters : 100$">5 Liters : 100$</option>       
-                        <option value="20 Liters : 400$">20 Liters : 400$</option>
-                        <option value="50 Liters : 1000$">50 Liters : 1000$</option>
-                        <option value="1 Barrel : 3160$">1 Barrel : 3160$</option>
+                        <option value="5 Liters of whiskey: 100$">5 Liters : 100$</option>       
+                        <option value="20 Liters of whiskey: 400$">20 Liters : 400$</option>
+                        <option value="50 Liters of whiskey: 1000$">50 Liters : 1000$</option>
+                        <option value="1 Barrel of whiskey: 3160$">1 Barrel : 3160$</option>
                     </select>
                     <select className="state" onChange={whiskeyStates}>
                     {getApi[0].map((city) => (
@@ -173,10 +173,10 @@ function Alcohols() {
                 <div className='description'>This rum originates from the island of Negros in the Philippines where it is made from local molasses, renowned for its sweetness and richness. For those who do not know, if the Philippines is today one of the 10 largest sugarcane producing countries in the world, rum production only began 50 years ago.</div>
                 <div className='select'>
                     <select id="quantity" onChange={rumValues}>
-                        <option value="5 Liters : 75$">5 Liters : 75$</option>       
-                        <option value="20 Liters : 300$">20 Liters : 300$</option>
-                        <option value="50 Liters : 750$">50 Liters : 750$</option>
-                        <option value="1 Barrel : 2370$">1 Barrel : 2370$</option>
+                        <option value="5 Liters of rum: 75$">5 Liters : 75$</option>       
+                        <option value="20 Liters of rum: 300$">20 Liters : 300$</option>
+                        <option value="50 Liters of rum: 750$">50 Liters : 750$</option>
+                        <option value="1 Barrel of rum: 2370$">1 Barrel : 2370$</option>
                     </select>
                     <select className="state" onChange={rumStates}>
                         {getApi[0].map((city) => (
