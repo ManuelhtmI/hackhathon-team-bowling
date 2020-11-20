@@ -141,7 +141,7 @@ function Drugs() {
                 <Link to="/Result"><button className="button_choice">Valid your choice.</button></Link>
             </div>
             <div className='total_section'>
-                <h2 className='title_al'>opiumValue</h2>
+                <h2 className='title_al'>Opium</h2>
                 <div className='price'>40$/G</div>
                 <img className='alcohol_img' src={Opi} />
                 <div className='description'>opiumValue is a depressant drug, which means it slows down the messages traveling between your brain and body. The opiumValue poppy from which opiumValue is derived is one of the earliest plants of which there is recorded medicinal use.1 Evidence of opiumValue cultivation by the Sumerian people dates to 3400BCE.</div>
