@@ -1,0 +1,94 @@
+* {
+    color: #3b2f2b;
+    box-sizing: content-box;
+    font-family: 'Domine', serif;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+    transition: 0.2s all;
+    margin: 6%;
+    padding: 4%;
+    background-color: #825B46 ;
+  }
+  
+  .meetingPoint {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+  }
+  
+  .meetingPointPicture {
+  
+    width: 250px;
+    height: 150px;
+    border-radius: 5%;
+    
+  }
+  
+  
+  .container li{ 
+    list-style: none;
+  }  
+  
+  /* .divInformations{
+    
+  } */
+  
+  .containerList {
+    display: flex;
+    justify-content: center;
+  }
+  .containerLineOption,
+  .containerLineResult {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  }
+  .containerLineResult {
+    padding-left: 2%;
+  }
+  .containerLineOption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .containerLineOption li,
+  .containerLineResult li {
+    font-size: 18px;
+    color: #dcdcdc;
+  }
+  
+  .meetingPlaces{
+    color:#dcdcdc;
+   
+  
+  } 
+  
+  .meetingTitle{
+      background: radial-gradient(#767677, #000);
+      background-size: 100% 200%;
+      background-position: 50% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 2%;
+      font-size: 38px;
+  }
+    
+  .paragraph {
+    font-style: italic;
+  }
+  
+  
