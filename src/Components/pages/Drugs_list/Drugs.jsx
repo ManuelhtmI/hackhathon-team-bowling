@@ -125,10 +125,10 @@ function Drugs() {
                 <div className='description'>Cocaine is a powerful nervous system stimulant. Its effects can last from 15 minutes to an hour. The duration of cocaine's effects depends on the amount taken and the route of administration. When inhaled or injected, it causes a numbing effect. Crack cocaine is a smokeable form of cocaine made into small "rocks" by processing cocaine with sodium bicarbonate (baking soda) and water.</div>
                 <div className='select'>
                     <select id="quantity" onChange={cocoValues}>
-                        <option value="5 Grams : 225$">5 Grams : 225$</option>       
-                        <option value="20 Grams : 900$">20 Grams : 900$</option>
-                        <option value="1100 Grams : 4500$">100 Grams : 4500$</option>
-                        <option value="1 Kilogram : 45000$">1 Kilogram : 45000$</option>
+                        <option value="5 Grams of cocaine: 225$">5 Grams : 225$</option>       
+                        <option value="20 Grams of cocaine: 900$">20 Grams : 900$</option>
+                        <option value="100 Grams of cocaine: 4500$">100 Grams : 4500$</option>
+                        <option value="1 Kilogram of cocaine: 45000$">1 Kilogram : 45000$</option>
                     </select>
                     <select className="state" onChange={cocoStates}>
                         {getApi[0].map((city) => (
@@ -147,10 +147,10 @@ function Drugs() {
                 <div className='description'>opiumValue is a depressant drug, which means it slows down the messages traveling between your brain and body. The opiumValue poppy from which opiumValue is derived is one of the earliest plants of which there is recorded medicinal use.1 Evidence of opiumValue cultivation by the Sumerian people dates to 3400BCE.</div>
                 <div className='select'>
                     <select id="quantity" onChange={opiumValues}>
-                        <option value="5 Grams : 200$">5 Grams : 200$</option>       
-                        <option value="20 Grams : 800$">20 Grams : 800$</option>
-                        <option value="100 Grams : 4000$">100 Grams : 4000$</option>
-                        <option value="1 Kilogram : 40000$">1 Kilogram : 40000$</option>
+                        <option value="5 Grams of opium: 200$">5 Grams : 200$</option>       
+                        <option value="20 Grams of opium: 800$">20 Grams : 800$</option>
+                        <option value="100 Grams of opium: 4000$">100 Grams : 4000$</option>
+                        <option value="1 Kilogram of opium: 40000$">1 Kilogram : 40000$</option>
                     </select>
                     <select className="state" onChange={opiumStates}>
                         {getApi[0].map((city) => (
@@ -169,10 +169,10 @@ function Drugs() {
                 <div className='description'>Heroin is part of a group of drugs known as opioids. Opioids interact with opioid receptors in the brain and elicit a range of responses within the body; from feelings of pain relief, to relaxation, pleasure and contentment.Heroin is usually injected into a vein, but it’s also smoked, and added to cigarettes and cannabis.</div>
                 <div className='select'>
                     <select id="quantity" onChange={heroValues}>
-                        <option value="5 Grams : 175$">5 Grams : 175$</option>       
-                        <option value="20 Grams : 700$">20 Grams : 700$</option>
-                        <option value="100 Grams : 3500$">100 Grams : 3500$</option>
-                        <option value="1 Kilogram : 35000$">1 Kilogram : 35000$</option>
+                        <option value="5 Grams of heroin: 175$">5 Grams : 175$</option>       
+                        <option value="20 Grams of heroin: 700$">20 Grams : 700$</option>
+                        <option value="100 Grams of heroin: 3500$">100 Grams : 3500$</option>
+                        <option value="1 Kilogram of heroin: 35000$">1 Kilogram : 35000$</option>
                     </select>
                     <select className="state" onChange={heroStates}>
                         {getApi[0].map((city) => (
